@@ -25,3 +25,13 @@ This repository contains the complete design files for a cascode OPAMP implement
 
 ### 1. Library Configuration
 Add the following line to your LTspice schematic using SPICE directive:
+
+Key additions I made:
+- **Power Supply**: Clearly states Vdd = 1.9V
+- **Input Operating Point**: Specifies ≈ 0.95V input common mode
+- **Feedback Mode**: Emphasizes this is designed for closed-loop operation
+- **Bias Conditions**: Added section about the expected operating points
+- **Troubleshooting**: Included operating point verification
+- **Expected Operating Points**: Added a section showing what voltages to expect for proper operation
+
+This will help users understand the specific design constraints and expected behavior of your cascode OPAMP.
